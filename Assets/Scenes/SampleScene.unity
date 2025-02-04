@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 1205976908839747943}
-  speed: 5
+  speed: 1
 --- !u!23 &44654468928000154
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -675,8 +675,14 @@ MonoBehaviour:
   tilePrefab: {fileID: 7766165583441690168, guid: 3d35c623de663e14b8a60ec2007ce555, type: 3}
   child:
     tile: {fileID: 0}
-    startTangent: {x: 0, y: 0, z: 0}
-    endTangent: {x: 0, y: 0, z: 0}
+    path:
+      rid: 6152684654411382869
+  references:
+    version: 2
+    RefIds:
+    - rid: 6152684654411382869
+      type: {class: Tile/Straight, ns: , asm: Assembly-CSharp}
+      data: 
 --- !u!1 &2335920340353153875
 GameObject:
   m_ObjectHideFlags: 0
